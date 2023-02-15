@@ -33,7 +33,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/XHBSURAv7s.gif' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Recordit  
+GIF created with Recordit  http://g.recordit.co/XHBSURAv7s.gif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
