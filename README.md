@@ -30,10 +30,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/XHBSURAv7s.gif' width='' alt='Video Walkthrough' />
+<a href="https://www.loom.com/share/c2bbc6d90df64ea69b65ba2bfed7ecb6">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/c2bbc6d90df64ea69b65ba2bfed7ecb6-with-play.gif">
+  </a>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with Recordit  http://g.recordit.co/XHBSURAv7s.gif
+GIF created with LOOM
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
