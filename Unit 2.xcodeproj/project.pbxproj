@@ -13,6 +13,9 @@
 		8DA1154D29934AEF00A979BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1154B29934AEF00A979BF /* Main.storyboard */; };
 		8DA1154F29934AF100A979BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1154E29934AF100A979BF /* Assets.xcassets */; };
 		8DA1155229934AF100A979BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA1155029934AF100A979BF /* LaunchScreen.storyboard */; };
+		8DA1155A2996CD5000A979BF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA115592996CD5000A979BF /* MovieCell.swift */; };
+		8DA1155D2996D5F200A979BF /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA1155C2996D5F200A979BF /* Nuke */; };
+		8DA1155F2998210F00A979BF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1155E2998210F00A979BF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		8DA1154E29934AF100A979BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA1155129934AF100A979BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA1155329934AF100A979BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA115592996CD5000A979BF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		8DA1155E2998210F00A979BF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA1155D2996D5F200A979BF /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +64,9 @@
 			children = (
 				8DA1154529934AEF00A979BF /* AppDelegate.swift */,
 				8DA1154729934AEF00A979BF /* SceneDelegate.swift */,
+				8DA1155E2998210F00A979BF /* DetailViewController.swift */,
 				8DA1154929934AEF00A979BF /* ViewController.swift */,
+				8DA115592996CD5000A979BF /* MovieCell.swift */,
 				8DA1154B29934AEF00A979BF /* Main.storyboard */,
 				8DA1154E29934AF100A979BF /* Assets.xcassets */,
 				8DA1155029934AF100A979BF /* LaunchScreen.storyboard */,
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = "Unit 2";
+			packageProductDependencies = (
+				8DA1155C2996D5F200A979BF /* Nuke */,
+			);
 			productName = "Unit 2";
 			productReference = 8DA1154229934AEF00A979BF /* Unit 2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 8DA1153929934AEF00A979BF;
+			packageReferences = (
+				8DA1155B2996D5F200A979BF /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = 8DA1154329934AEF00A979BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +154,8 @@
 			files = (
 				8DA1154A29934AEF00A979BF /* ViewController.swift in Sources */,
 				8DA1154629934AEF00A979BF /* AppDelegate.swift in Sources */,
+				8DA1155F2998210F00A979BF /* DetailViewController.swift in Sources */,
+				8DA1155A2996CD5000A979BF /* MovieCell.swift in Sources */,
 				8DA1154829934AEF00A979BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DA1155B2996D5F200A979BF /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DA1155C2996D5F200A979BF /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA1155B2996D5F200A979BF /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DA1153A29934AEF00A979BF /* Project object */;
 }
